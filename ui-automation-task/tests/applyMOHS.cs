@@ -39,7 +39,7 @@ namespace ui_automation_task.Tests
             applicationPage.ProceedToNextPage(1);
 
             // Fill in the Parent Information
-            applicationPage.FillParentInformation("Testi", "Tester", "testi.tester@done.com", "0123456789");
+            applicationPage.FillParentInformation("Testi", "Tester", "testi.tester@done.com", 0123456789);
 
             // Second parent Dropdown
             applicationPage.SelectSecondParentOption("No");

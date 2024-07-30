@@ -30,12 +30,12 @@ namespace ui_automation_task.Pages
             NextBtn(currentPageNum).Click();
         }
 
-        public void FillParentInformation(string firstName, string lastName, string email, string phoneNumber)
+        public void FillParentInformation(string firstName, string lastName, string email, int phoneNumber)
         {
             FirstName.SendKeys(firstName);
             LastName.SendKeys(lastName);
             Email.SendKeys(email);
-            PhoneNum.SendKeys(phoneNumber);
+            PhoneNum.SendKeys(phoneNumber.ToString());
         }
 
         public void SelectSecondParentOption(string option)
