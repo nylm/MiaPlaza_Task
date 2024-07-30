@@ -64,3 +64,5 @@ packages/
 
 # Ignore Windows thumbnail cache
 Thumbs.db
+
+test-output/

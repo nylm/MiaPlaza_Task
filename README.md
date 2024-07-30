@@ -45,8 +45,9 @@ Before you can run the tests, make sure you have the following installed:
 
 Current Structure:
 - `miaplaza/`
-  - `Pages/`:  Contains page object model classes that represent the pages of the web application.
-  - `Tests/`: Contains the test suites & cases to perform actions and assertions.
+  - `pages/`:  Contains page object model classes that represent the pages of the web application.
+  - `tests/`: Contains the test suites & cases to perform actions and assertions.
+  - `test_output/`: Contains the test reports
  
 The Project can be further improved by implementing:
 - **Data-Driven Testing** with JSON configuration files.
