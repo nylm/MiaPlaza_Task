@@ -24,21 +24,24 @@ Before you can run the tests, make sure you have the following installed:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/nylm/MiaPlaza_Task.git
+   ```
 
 1. **Navigate to the Project Directory**
    ```bash
    cd MiaPlaza_Task
+   ```
 
 1. **Restore .NET Dependencies**
     ```bash
    dotnet restore
+   ```
 
 ## Running Tests
+   ```bash
+   dotnet test
+   ```
 
-    ```bash
-    dotnet test
-
-## Project Structure
+## Running Tests
 
 Current Structure:
 - `miaplaza/`
